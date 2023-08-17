@@ -37,7 +37,7 @@ class _CountDownTimerPageState extends State<CountDownTimerPage> {
         if (isTimerRunning) {
           countdownTimer.pause(countdownSeconds); //setting end time on pause
         }
-      }d
+      }
 
       // On AppLifecycleState: resumed
       if (msg == AppLifecycleState.resumed.toString()) {
